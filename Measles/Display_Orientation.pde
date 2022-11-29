@@ -1,5 +1,3 @@
-ines (9 sloc)  244 Bytes
-
 Boolean landscape=false, portrait=false;
 //
 void displayOrientation() {

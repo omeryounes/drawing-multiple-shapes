@@ -1,9 +1,11 @@
-Boolean landscape=false, portrait=false;
+float rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight;
+float faceX, faceY, faceDiameter;
 //
-void displayOrientation() {
-  //Diplay Orientation Algorithm, see Hello World to copy
-  landscape = true; //Harcoded for now
-  //
-}//End displayOrientation
+void faceSetup() {
+  //Face: inscribing a cirlcle in a square (i.e. logical rectangle)
+  //Start from center of display
+  rect(rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight);
+  ellipse(faceX, faceY, faceDiameter, faceDiameter);
+} //End faceSetup
 //
-//End Display and Orientation Subprogram
+//End Face Subprogram
